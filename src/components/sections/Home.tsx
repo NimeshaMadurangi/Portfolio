@@ -1,6 +1,6 @@
 import React from "react"
 import { ArrowDownIcon } from "lucide-react"
-const Hero: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center py-20 px-4">
       <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-blue-500/5 dark:from-purple-900/20 dark:to-blue-900/10 z-0"></div>
@@ -59,4 +59,4 @@ const Hero: React.FC = () => {
     </section>
   )
 }
-export default Hero
+export default Home

@@ -11,15 +11,14 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center">
           <div className="mb-6 inline-block">
             <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-purple-500/20 to-blue-500/20 text-purple-600 dark:text-purple-300 text-sm font-medium mb-4">
-              Full-Stack Developer
+              Frontend Engineer
             </span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Hi, I'm Nimesha Madurangi 👋
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-gray-600 dark:text-gray-300">
-            Software Engineer | Final-year IT Undergraduate | Passionate about
-            Clean Code, DevOps, and Innovation
+            Frontend Engineer | Undergraduate
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

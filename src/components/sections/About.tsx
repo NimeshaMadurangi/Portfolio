@@ -27,36 +27,42 @@ const About: React.FC = () => {
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mb-6"></div>
             <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-              I am a final-year Information Technology undergraduate at Sri
-              Lanka Institute of Information Technology (SLIIT) with a passion
-              for creating elegant software solutions. My journey in tech has
-              equipped me with hands-on experience in backend and frontend
-              development, DevOps tools, and modern software engineering
+              I'm a final-year Information Technology undergraduate at the Sri
+              Lanka Institute of Information Technology (SLIIT), expecting to
+              graduate next month. With one year of hands-on industry
+              experience, I've worked as a Trainee Frontend Engineer and an
+              Intern Software Engineer, focusing primarily on frontend
+              development using React.
+            </p>
+            <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
+              I'm passionate about building clean, efficient, and user-friendly
+              software solutions. My journey has equipped me with practical
+              skills in both frontend and backend development, as well as
+              exposure to DevOps tools and modern software engineering
               practices.
             </p>
             <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-              I pride myself on being a fast learner who thrives in
-              collaborative environments. My approach combines technical
-              expertise with innovative thinking to solve complex problems
-              efficiently. I'm constantly exploring new technologies and
-              methodologies to enhance my skills and deliver better results.
+              I’m a quick learner who thrives in collaborative environments and
+              enjoys solving real-world problems with innovative thinking and
+              technical precision. I'm always eager to explore new technologies
+              and improve my craft to deliver impactful results.
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
               <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg shadow-md flex items-center gap-2">
                 <span className="w-3 h-3 bg-green-500 rounded-full"></span>
-                <span>Problem Solver</span>
+                <span>React</span>
               </div>
               <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg shadow-md flex items-center gap-2">
                 <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
-                <span>Team Player</span>
+                <span>UI/UX Design</span>
               </div>
               <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg shadow-md flex items-center gap-2">
                 <span className="w-3 h-3 bg-purple-500 rounded-full"></span>
-                <span>Fast Learner</span>
+                <span>Solve Problems</span>
               </div>
               <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-lg shadow-md flex items-center gap-2">
                 <span className="w-3 h-3 bg-yellow-500 rounded-full"></span>
-                <span>Detail Oriented</span>
+                <span>Learn Fast</span>
               </div>
             </div>
           </div>

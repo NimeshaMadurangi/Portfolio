@@ -15,7 +15,7 @@ const Home: React.FC = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Hi, I'm Nimesha Madurangi 👋
+            Hello, I'm Nimesha Madurangi 👋
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-gray-600 dark:text-gray-300">
             Frontend Engineer | Undergraduate

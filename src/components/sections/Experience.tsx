@@ -5,12 +5,14 @@ interface ExperienceItemProps {
   company: string
   period: string
   description: string[]
+  techStack: string
 }
 const ExperienceItem: React.FC<ExperienceItemProps> = ({
   title,
   company,
   period,
   description,
+  techStack,
 }) => {
   return (
     <div className="relative pl-8 pb-12 last:pb-0">
@@ -34,6 +36,10 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
             <li key={index}>{item}</li>
           ))}
         </ul>
+        <br />
+        <div className="text-sm text-gray-500 dark:text-gray-400">
+          <span className="font-semibold">Tech Stack:</span> {techStack}
+        </div>
       </div>
     </div>
   )
@@ -45,20 +51,20 @@ const Experience: React.FC = () => {
       company: "Phenom Corporation PVT LTD",
       period: "Feb 2025 - Present",
       description: [
-        "Working on Frontend Development using React JS with Redux",
-        "Collaborating with cross-functional teams to deliver high-quality software solutions",
-        "Participating in agile development processes and continuous integration workflows",
+        "Developed a cross-platform Performance Monitoring Web and Desktop Application at Phenom Corporation to track employee productivity, manage user roles, and automate payroll based on real-time work data. Key features include role-based access, work and break time tracking, performance dashboards, leave management, and dynamic salary calculation. Built using React.js, Redux, and SCSS.",
       ],
+      techStack: "PHP, Laravel, Codeigniter, html, css, PhpMyadmin, MariaDB",
     },
     {
       title: "Intern Developer",
       company: "Development Lotteries Board",
       period: "Aug 2024 - Feb 2025",
       description: [
-        "Developed and maintained web applications using PHP/Laravel",
-        "Implemented report generation system with data visualization features",
-        "Collaborated with senior developers to improve existing systems and implement new features",
+        "Developed a dynamic report generation module with integrated data visualization to automate and streamline the preparation of daily newspaper advertisements. The system reduced manual effort, minimized errors, and improved publishing efficiency and consistency.",
+        "Designed and developed the frontend for a Daily Draw video sharing system facilitating secure and efficient media exchange between Sri Lanka Rupavahini Corporation (SLRC) and the Development Lotteries Board (DLB), improving content delivery speed and user accessibility.",
+        "Built a full-featured Event Management System that automated task assignments for photographers and videographers, centralized media management, and enabled direct social media sharing, leading to a 50% decrease in manual effort and significantly faster event content publishing.",
       ],
+      techStack: "PHP, Laravel, Codeigniter, html, css, PhpMyadmin, MariaDB",
     },
   ]
   return (
@@ -91,6 +97,7 @@ const Experience: React.FC = () => {
                 company={exp.company}
                 period={exp.period}
                 description={exp.description}
+                techStack={exp.techStack}
               />
             ))}
           </div>

@@ -16,9 +16,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
 }) => {
   return (
     <div className="relative pl-8 pb-12 last:pb-0">
-      {/* Timeline line */}
       <div className="absolute left-0 top-0 bottom-0 w-px bg-purple-300 dark:bg-purple-700"></div>
-      {/* Timeline dot */}
       <div className="absolute left-0 top-1 w-5 h-5 -ml-2.5 rounded-full border-4 border-purple-500 bg-white dark:bg-gray-900"></div>
       <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
         <div className="flex flex-wrap items-center justify-between mb-2">
@@ -56,7 +54,7 @@ const Experience: React.FC = () => {
       techStack: "PHP, Laravel, Codeigniter, html, css, PhpMyadmin, MariaDB",
     },
     {
-      title: "Intern Developer",
+      title: "Intern Software Developer",
       company: "Development Lotteries Board",
       period: "Aug 2024 - Feb 2025",
       description: [

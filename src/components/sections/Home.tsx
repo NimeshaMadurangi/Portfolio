@@ -22,7 +22,7 @@ const Home: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="/NimeshaMadurangi-SE.pdf"
+              href="/Nimesha-Madurangi.pdf"
               className="px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-purple-500/25 flex items-center gap-2"
               download
             >

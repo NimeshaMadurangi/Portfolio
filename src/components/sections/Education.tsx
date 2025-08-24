@@ -22,8 +22,10 @@ const Education: React.FC = () => {
                 </div>
                 <p className="text-lg font-medium">
                   BSc (Hons) in Information Technology
+                  <br />
+                  Specialization in Information Technology
                 </p>
-                <p className="mt-2 text-purple-100">2021 - Present</p>
+                <p className="mt-2 text-purple-100">2021 JUNE - 2025 JUNE</p>
                 {/* <div className="flex items-center gap-3 mt-8 mb-4">
                   <AwardIcon size={24} />
                   <h3 className="text-xl font-bold">GPA</h3>
@@ -36,9 +38,9 @@ const Education: React.FC = () => {
                   Sri Lanka Institute of Information Technology (SLIIT)
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  Pursuing a comprehensive degree program covering various
-                  aspects of information technology, including software
-                  engineering, database management, web development, and more.
+                  Earned a comprehensive degree in Information Technology with a
+                  strong foundation in software engineering, database
+                  management, web development, and other core IT disciplines.
                 </p>
                 <div className="mb-6">
                   <h4 className="font-bold mb-2">Key Coursework:</h4>

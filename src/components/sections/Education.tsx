@@ -25,7 +25,7 @@ const Education: React.FC = () => {
                   <br />
                   Specialization in Information Technology
                 </p>
-                <p className="mt-2 text-purple-100">2021 JUNE - 2025 JUNE</p>
+                <p className="mt-2 text-purple-100">2021 - 2025</p>
                 {/* <div className="flex items-center gap-3 mt-8 mb-4">
                   <AwardIcon size={24} />
                   <h3 className="text-xl font-bold">GPA</h3>

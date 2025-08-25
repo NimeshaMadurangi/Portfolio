@@ -74,7 +74,7 @@ const Technologies: React.FC = () => {
         { name: "PHP", icon: <FileCodeIcon size={16} /> },
         { name: "JavaScript", icon: <GlobeIcon size={16} /> },
         { name: "HTML", icon: <LayoutIcon size={16} /> },
-        { name: "CSS", icon: <LayoutIcon size={16} /> },
+        { name: "CSS3", icon: <LayoutIcon size={16} /> },
         { name: "SQL", icon: <DatabaseIcon size={16} /> },
       ],
     },
@@ -115,6 +115,8 @@ const Technologies: React.FC = () => {
         { name: "MVC", icon: <LayoutIcon size={16} /> },
         { name: "OOP", icon: <BrainIcon size={16} /> },
         { name: "OAuth2", icon: <LockIcon size={16} /> },
+        { name: "JWT", icon: <LockIcon size={16} /> },
+        { name: "Redux", icon: <LayoutIcon size={16} /> },
       ],
     },
   ]

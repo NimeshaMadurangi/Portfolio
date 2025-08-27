@@ -26,12 +26,6 @@ const Education: React.FC = () => {
                   Specialization in Information Technology
                 </p>
                 <p className="mt-2 text-purple-100">2021 - 2025</p>
-                {/* <div className="flex items-center gap-3 mt-8 mb-4">
-                  <AwardIcon size={24} />
-                  <h3 className="text-xl font-bold">GPA</h3>
-                </div>
-                <p className="text-3xl font-bold">2.52/4.0</p>
-                <p className="mt-2 text-purple-100">Expected</p> */}
               </div>
               <div className="md:w-2/3 p-6">
                 <h3 className="text-2xl font-bold mb-4">
@@ -71,23 +65,6 @@ const Education: React.FC = () => {
                     </li>
                   </ul>
                 </div>
-                {/* <div>
-                  <h4 className="font-bold mb-2">Achievements:</h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-purple-500 rounded-full mr-2 mt-2"></span>
-                      <span>
-                        Dean's List for Academic Excellence (2022-2023)
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="w-2 h-2 bg-purple-500 rounded-full mr-2 mt-2"></span>
-                      <span>
-                        Best Group Project Award - Software Engineering Module
-                      </span>
-                    </li>
-                  </ul>
-                </div> */}
               </div>
             </div>
           </div>

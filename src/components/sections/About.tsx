@@ -6,7 +6,6 @@ const About: React.FC = () => {
     <section id="about" className="py-20 bg-gray-50 dark:bg-gray-800/50">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-10 max-w-6xl mx-auto">
-          {/* Profile Image */}
           <div className="w-full md:w-1/3 flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl">

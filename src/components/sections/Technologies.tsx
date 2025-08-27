@@ -67,15 +67,15 @@ const TechCategory: React.FC<TechCategoryProps> = ({
 const Technologies: React.FC = () => {
   const categories = [
     {
-      title: "Languages",
+      title: "Languages & Markup",
       icon: <CodeIcon size={24} />,
       items: [
         { name: "Java", icon: <FileCodeIcon size={16} /> },
         { name: "PHP", icon: <FileCodeIcon size={16} /> },
         { name: "JavaScript", icon: <GlobeIcon size={16} /> },
+        { name: "TypeScript", icon: <GlobeIcon size={16} /> },
         { name: "HTML", icon: <LayoutIcon size={16} /> },
         { name: "CSS3", icon: <LayoutIcon size={16} /> },
-        { name: "SQL", icon: <DatabaseIcon size={16} /> },
       ],
     },
     {
@@ -92,23 +92,37 @@ const Technologies: React.FC = () => {
       ],
     },
     {
-      title: "Tools & Platforms",
+      title: "Databases",
+      icon: <DatabaseIcon size={24} />,
+      items: [
+        { name: "SQL", icon: <DatabaseIcon size={16} /> },
+        { name: "MariaDB", icon: <DatabaseIcon size={16} /> },
+      ],
+    },
+    {
+      title: "DevOps & Tools",
       icon: <BoxIcon size={24} />,
       items: [
         { name: "Git", icon: <GitBranchIcon size={16} /> },
         { name: "Docker", icon: <BoxIcon size={16} /> },
         { name: "Postman", icon: <ServerIcon size={16} /> },
         { name: "PhpMyAdmin", icon: <DatabaseIcon size={16} /> },
-        { name: "MariaDB", icon: <DatabaseIcon size={16} /> },
         { name: "JDBC", icon: <DatabaseIcon size={16} /> },
         { name: "Maven", icon: <ServerIcon size={16} /> },
         { name: "AWS", icon: <CloudIcon size={16} /> },
         { name: "Azure", icon: <CloudIcon size={16} /> },
-        { name: "Figma", icon: <FigmaIcon size={16} /> },
       ],
     },
     {
-      title: "Concepts",
+      title: "UI/UX & Design",
+      icon: <FigmaIcon size={24} />,
+      items: [
+        { name: "Figma", icon: <FigmaIcon size={16} /> },
+        { name: "Canva", icon: <LayoutIcon size={16} /> },
+      ],
+    },
+    {
+      title: "Core Concepts & Architecture",
       icon: <BrainIcon size={24} />,
       items: [
         { name: "REST API", icon: <GlobeIcon size={16} /> },
@@ -145,12 +159,11 @@ const Technologies: React.FC = () => {
           />
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             My technical toolkit consists of modern technologies and
-            methodologies that I’ve mastered through academic and hands-on
-            experience.
+            methodologies mastered through hands-on experience.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {categories.map((category, index) => (
             <TechCategory
               key={index}

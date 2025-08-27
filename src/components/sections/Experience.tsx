@@ -51,7 +51,7 @@ const Experience: React.FC = () => {
       description: [
         "Developed a cross-platform Performance Monitoring Web and Desktop Application at Phenom Corporation to track employee productivity, manage user roles, and automate payroll based on real-time work data. Key features include role-based access, work and break time tracking, performance dashboards, leave management, and dynamic salary calculation. Built using React.js, Redux, and SCSS.",
       ],
-      techStack: "PHP, Laravel, Codeigniter, html, css, PhpMyadmin, MariaDB",
+      techStack: "JavaScript, React JS, Redux, SCSS, HTML, Figma, GitLab",
     },
     {
       title: "Intern Software Developer",
@@ -62,7 +62,7 @@ const Experience: React.FC = () => {
         "Designed and developed the frontend for a Daily Draw video sharing system facilitating secure and efficient media exchange between Sri Lanka Rupavahini Corporation (SLRC) and the Development Lotteries Board (DLB), improving content delivery speed and user accessibility.",
         "Built a full-featured Event Management System that automated task assignments for photographers and videographers, centralized media management, and enabled direct social media sharing, leading to a 50% decrease in manual effort and significantly faster event content publishing.",
       ],
-      techStack: "PHP, Laravel, Codeigniter, html, css, PhpMyadmin, MariaDB",
+      techStack: "PHP, Laravel, Codeigniter, HTML, CSS, PhpMyadmin, MariaDB",
     },
   ]
   return (

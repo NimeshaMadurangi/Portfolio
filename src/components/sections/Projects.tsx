@@ -94,6 +94,7 @@ const Projects: React.FC = () => {
         "Full CRUD inventory management with search, filter, undo delete, and localStorage persistence.",
       tech: ["React", "Vite", "Tailwind"],
       github: "https://github.com/NimeshaMadurangi/E-Commerce_Dashboard.git",
+      demo: "https://drive.google.com/file/d/1HWK2QA_EdtIJOnbSL9VbZPkRl85Zhveg/view?usp=sharing",
       image: "/ecom.jpg",
     },
     {

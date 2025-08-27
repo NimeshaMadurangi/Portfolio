@@ -41,10 +41,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="border-t border-gray-800 mt-6 pt-6 text-center">
           <p className="text-gray-400 flex items-center justify-center gap-1">
-            <span>
-              © {new Date().getFullYear()} Nimesha Madurangi. Made with
-            </span>
-            <HeartIcon size={16} className="text-red-500" />
+            <span>© {new Date().getFullYear()} Nimesha Madurangi 2025</span>
           </p>
         </div>
       </div>

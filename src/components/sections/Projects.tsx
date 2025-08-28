@@ -83,7 +83,7 @@ const Projects: React.FC = () => {
     {
       title: "Performance Monitoring Web & Desktop App",
       description:
-        "Comprehensive system for tracking employee productivity, time management, payroll, and leave approvals.",
+        "This is a comprehensive web and desktop application designed to monitor and manage employee performance effectively. It provides real-time insights into productivity, time tracking, and workforce management for organizations of any scale. 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬: 𝐔𝐬𝐞𝐫 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭:- Role-based access for Admins, Managers, and Employees with secure authentication and profile management. 𝐖𝐨𝐫𝐤 & 𝐁𝐫𝐞𝐚𝐤 𝐓𝐢𝐦𝐞 𝐓𝐫𝐚𝐜𝐤𝐢𝐧𝐠:- Records and displays employees' work hours, break durations, and idle time. 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝:- Daily Work Hours Graph, Monthly Work Hours Graph. 𝐒𝐚𝐥𝐚𝐫𝐲 𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐢𝐨𝐧:- Dynamic payroll system based on actual work time, leave deductions, and performance parameters. 𝐋𝐞𝐚𝐯𝐞 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭:- Allows employees to apply for leaves and managers to review and approve them with a streamlined interface.",
       tech: ["React JS", "Redux", "SCSS"],
       github: "#",
       image: "/perf.jpg",
@@ -91,8 +91,8 @@ const Projects: React.FC = () => {
     {
       title: "E-Commerce Product Dashboard",
       description:
-        "Full CRUD inventory management with search, filter, undo delete, and localStorage persistence.",
-      tech: ["React", "Vite", "Tailwind"],
+        "This is a fully functional E-Commerce Product Dashboard built with React, designed for managing a product inventory. It allows users to Add, Edit, Delete, Search, Filter, and Undo product actions, with data persistence using local storage. 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬: Add new products with validation , Edit existing products , Delete single products (with confirmation), Undo deletion within 5 seconds , Filter by category, price range, and stock , Real-time search by product name , Fully persistent state via localStorage , Responsive, accessible UI , Comprehensive test coverage with Vitest & React Testing Library",
+      tech: ["React", "Vite", "Tailwind", "Vitest"],
       github: "https://github.com/NimeshaMadurangi/E-Commerce_Dashboard.git",
       demo: "https://drive.google.com/file/d/1HWK2QA_EdtIJOnbSL9VbZPkRl85Zhveg/view?usp=sharing",
       image: "/ecom.jpg",
@@ -100,7 +100,7 @@ const Projects: React.FC = () => {
     {
       title: "TomatoGuard – Smart Agriculture App",
       description:
-        "AI-powered IoT app for tomato cultivation with disease detection, pest control, and fertilizer automation.",
+        "This AI-powered mobile application and IoT-integrated system includes: 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧, 𝐅𝐞𝐫𝐭𝐢𝐥𝐢𝐳𝐞𝐫 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 & 𝐖𝐞𝐚𝐭𝐡𝐞𝐫-𝐁𝐚𝐬𝐞𝐝 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐞𝐜𝐚𝐬𝐭𝐢𝐧𝐠, 𝐏𝐞𝐬𝐭 𝐃𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 & 𝐏𝐞𝐬𝐭𝐢𝐜𝐢𝐝𝐞 𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐰𝐢𝐭𝐡 𝐒𝐦𝐚𝐫𝐭 𝐘𝐞𝐥𝐥𝐨𝐰 𝐁𝐨𝐚𝐫𝐝 𝐓𝐫𝐚𝐩, 𝐒𝐦𝐚𝐫𝐭 𝐂𝐫𝐨𝐩 𝐌𝐨𝐧𝐢𝐭𝐨𝐫𝐢𝐧𝐠 𝐚𝐧𝐝 𝐇𝐚𝐫𝐯𝐞𝐬𝐭𝐢𝐧𝐠 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐈𝐨𝐓, 𝐖𝐞𝐞𝐝 𝐏𝐫𝐞𝐝𝐢𝐜𝐭𝐢𝐨𝐧 & 𝐇𝐞𝐫𝐛𝐢𝐜𝐢𝐝𝐞 𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐰𝐢𝐭𝐡 𝐒𝐦𝐚𝐫𝐭 𝐃𝐞𝐯𝐢𝐜𝐞. Our system combines deep learning, IoT, and real-time analytics to deliver a complete smart agriculture ecosystem tailored for tomato cultivation. It aims to empower farmers, reduce crop loss, and promote sustainable farming practices.",
       tech: ["React Native", "IoT", "Python", "CNN", "LSTM"],
       demo: "https://tomato-guard.netlify.app/",
       image: "/tomato.png",

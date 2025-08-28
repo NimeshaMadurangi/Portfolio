@@ -12,6 +12,10 @@ import {
   CloudIcon,
   FileCodeIcon,
   FigmaIcon,
+  TestTubeIcon,
+  NetworkIcon,
+  ShieldIcon,
+  CpuIcon,
 } from "lucide-react"
 import { motion } from "framer-motion"
 
@@ -75,7 +79,7 @@ const Technologies: React.FC = () => {
         { name: "JavaScript", icon: <GlobeIcon size={16} /> },
         { name: "TypeScript", icon: <GlobeIcon size={16} /> },
         { name: "HTML", icon: <LayoutIcon size={16} /> },
-        { name: "CSS3", icon: <LayoutIcon size={16} /> },
+        { name: "CSS", icon: <LayoutIcon size={16} /> },
       ],
     },
     {
@@ -95,7 +99,7 @@ const Technologies: React.FC = () => {
       title: "Databases",
       icon: <DatabaseIcon size={24} />,
       items: [
-        { name: "SQL", icon: <DatabaseIcon size={16} /> },
+        { name: "My SQL", icon: <DatabaseIcon size={16} /> },
         { name: "MariaDB", icon: <DatabaseIcon size={16} /> },
       ],
     },
@@ -106,8 +110,6 @@ const Technologies: React.FC = () => {
         { name: "Git", icon: <GitBranchIcon size={16} /> },
         { name: "Docker", icon: <BoxIcon size={16} /> },
         { name: "Postman", icon: <ServerIcon size={16} /> },
-        { name: "PhpMyAdmin", icon: <DatabaseIcon size={16} /> },
-        { name: "JDBC", icon: <DatabaseIcon size={16} /> },
         { name: "Maven", icon: <ServerIcon size={16} /> },
         { name: "AWS", icon: <CloudIcon size={16} /> },
         { name: "Azure", icon: <CloudIcon size={16} /> },
@@ -125,12 +127,29 @@ const Technologies: React.FC = () => {
       title: "Core Concepts & Architecture",
       icon: <BrainIcon size={24} />,
       items: [
-        { name: "REST API", icon: <GlobeIcon size={16} /> },
+        { name: "REST API", icon: <NetworkIcon size={16} /> },
         { name: "MVC", icon: <LayoutIcon size={16} /> },
         { name: "OOP", icon: <BrainIcon size={16} /> },
+        { name: "Agile", icon: <CpuIcon size={16} /> },
+        { name: "Redux", icon: <NetworkIcon size={16} /> },
+      ],
+    },
+    {
+      title: "Security",
+      icon: <ShieldIcon size={24} />,
+      items: [
         { name: "OAuth2", icon: <LockIcon size={16} /> },
         { name: "JWT", icon: <LockIcon size={16} /> },
-        { name: "Redux", icon: <LayoutIcon size={16} /> },
+      ],
+    },
+    {
+      title: "Testing Tools",
+      icon: <TestTubeIcon size={24} />,
+      items: [
+        { name: "JUnit", icon: <TestTubeIcon size={16} /> },
+        { name: "Selenium", icon: <NetworkIcon size={16} /> },
+        { name: "Jest", icon: <BrainIcon size={16} /> },
+        { name: "Vitest", icon: <TestTubeIcon size={16} /> },
       ],
     },
   ]

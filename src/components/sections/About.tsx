@@ -30,7 +30,7 @@ const About: React.FC = () => {
             <div className="w-20 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mb-6"></div>
 
             <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-              Hi, I’m Nimesha — a passionate Frontend Developer and IT graduate
+              Hi, I’m Nimesha — a passionate Software Engineer and IT graduate
               with a love for creating clean, modern, and user-friendly digital
               experiences.
             </p>

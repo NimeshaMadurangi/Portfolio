@@ -1,4 +1,3 @@
-import React from "react"
 import { GithubIcon, ExternalLinkIcon } from "lucide-react"
 
 interface ProjectProps {

@@ -13,7 +13,8 @@ const Home: React.FC = () => {
           Hello, I'm Nimesha Madurangi 👋
         </h1>
         <p className="text-xl md:text-2xl mb-10 text-gray-600 dark:text-gray-300">
-          Frontend Developer | UI/UX Enthusiastic
+          Software Engineer | PHP - Laravel | JavaScript | TypeScript | React |
+          Vue | UI/UX Enthusiastic
         </p>
 
         <div className="mb-6 flex flex-wrap justify-center gap-2">

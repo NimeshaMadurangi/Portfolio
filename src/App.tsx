@@ -4,6 +4,7 @@ import Home from "./components/sections/Home"
 import About from "./components/sections/About"
 import Technologies from "./components/sections/Technologies"
 import Projects from "./components/sections/Projects"
+import Figma from "./components/sections/Figma"
 import Experience from "./components/sections/Experience"
 import Education from "./components/sections/Education"
 import Contact from "./components/sections/Contact"
@@ -25,6 +26,7 @@ export function App() {
         <About />
         <Technologies />
         <Projects />
+        <Figma />
         <Experience />
         <Education />
         <Contact />

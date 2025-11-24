@@ -1,3 +1,55 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@keyframes heroFloat {
+  0% {
+    transform: translateY(0px) rotateX(5deg) rotateY(-5deg);
+  }
+  50% {
+    transform: translateY(-15px) rotateX(3deg) rotateY(3deg);
+  }
+  100% {
+    transform: translateY(0px) rotateX(5deg) rotateY(-5deg);
+  }
+}
+
+@keyframes subFloat {
+  0% {
+    transform: translateY(0px);
+    opacity: 0.9;
+  }
+  50% {
+    transform: translateY(-8px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0.9;
+  }
+}
+
+@keyframes techFloat {
+  0% {
+    transform: translateY(0px) rotateX(8deg) rotateY(-8deg);
+  }
+  50% {
+    transform: translateY(-10px) rotateX(4deg) rotateY(4deg);
+  }
+  100% {
+    transform: translateY(0px) rotateX(8deg) rotateY(-8deg);
+  }
+}
+
+/* Classes */
+.animate-heroFloat {
+  animation: heroFloat 6s ease-in-out infinite;
+}
+
+.animate-subFloat {
+  animation: subFloat 4s ease-in-out infinite;
+}
+
+.animate-techFloat {
+  animation: techFloat 5s ease-in-out infinite;
+}

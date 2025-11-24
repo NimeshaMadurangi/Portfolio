@@ -41,7 +41,6 @@
   }
 }
 
-/* Classes */
 .animate-heroFloat {
   animation: heroFloat 6s ease-in-out infinite;
 }

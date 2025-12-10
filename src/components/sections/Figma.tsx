@@ -58,20 +58,6 @@ const Figma: React.FC = () => {
         "https://www.figma.com/design/E0IRpdNViCzMK8YJUvXDmQ/TRV-App?node-id=0-1&t=hbhJWxYorawNf45I-1",
       image: "/trv.png",
     },
-    {
-      title: "Food Delivery Mobile App",
-      description:
-        "Mobile-first UI/UX design for a food ordering and delivery app, including user flow screens and checkout process.",
-      figma: "https://www.figma.com/file/yyyyyy/food-delivery",
-      image: "/figma-food.jpg",
-    },
-    {
-      title: "Fitness Tracking Dashboard",
-      description:
-        "A fitness analytics dashboard UI with progress tracking, activity visualization, and responsive layouts.",
-      figma: "https://www.figma.com/file/zzzzzz/fitness-dashboard",
-      image: "/figma-fitness.jpg",
-    },
   ]
 
   return (

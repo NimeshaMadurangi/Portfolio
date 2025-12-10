@@ -47,7 +47,7 @@ animate-techFloat [transform-style:preserve-3d]"
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
           <a
-            href="/Nimesha-Madurangi.pdf"
+            href="/Nimesha-Madurangi(SE).pdf"
             className="px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium 
 hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg 
 hover:shadow-purple-500/25 flex items-center gap-2"
